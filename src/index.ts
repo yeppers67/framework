@@ -2,7 +2,7 @@ import {
 	acquire,
 	getDefaultBehaviorWhenNotIdentical,
 	registries,
-	setDefaultBehaviorWhenNotIdentical
+	setDefaultBehaviorWhenNotIdentical 
 } from './lib/utils/application-commands/ApplicationCommandRegistries';
 import type { ApplicationCommandRegistry } from './lib/utils/application-commands/ApplicationCommandRegistry';
 import { CorePrecondition as ClientPermissions, type PermissionPreconditionContext } from './preconditions/ClientPermissions';
